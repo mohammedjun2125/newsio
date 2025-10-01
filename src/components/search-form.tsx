@@ -3,9 +3,16 @@
 import { useRouter } from 'next/navigation';
 import { Search } from 'lucide-react';
 import { Input } from './ui/input';
+import { useEffect, useState } from 'react';
 
 export function SearchForm() {
   const router = useRouter();
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -15,6 +22,10 @@ export function SearchForm() {
       router.push(`/search?q=${encodeURIComponent(query)}`);
     }
   };
+
+  if (!isClient) {
+    return null;
+  }
 
   return (
     <form onSubmit={handleSubmit} className="relative w-full max-w-sm">
