@@ -6,8 +6,46 @@ import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 
 export const metadata: Metadata = {
-  title: 'Newsio - Your Daily Tech News',
-  description: 'The latest articles in tech, gadgets, and trending topics.',
+  title: {
+    default: 'Newsio - Your Daily Tech News',
+    template: '%s | Newsio',
+  },
+  description: 'The latest articles in tech, AI, gadgets, and trending topics. Your essential source for technology news, reviews, and analysis.',
+  keywords: ['tech news', 'latest technology', 'AI', 'gadgets', 'reviews', 'trending tech', 'science news'],
+  openGraph: {
+    title: 'Newsio - Your Daily Tech News',
+    description: 'The latest articles in tech, AI, gadgets, and trending topics.',
+    url: 'https://newsio.com', // Replace with your actual domain
+    siteName: 'Newsio',
+    images: [
+      {
+        url: 'https://newsio.com/og-image.jpg', // Replace with your actual OG image URL
+        width: 1200,
+        height: 630,
+        alt: 'Newsio - Tech News and Analysis',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Newsio - Your Daily Tech News',
+    description: 'The latest articles in tech, AI, gadgets, and trending topics.',
+    // creator: '@yourtwitterhandle', // Replace with your Twitter handle
+    images: ['https://newsio.com/twitter-image.jpg'], // Replace with your actual Twitter image URL
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({

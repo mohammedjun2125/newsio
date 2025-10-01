@@ -33,7 +33,7 @@ export async function Footer() {
                     <div>
                         <h3 className="font-semibold tracking-wider text-foreground">COMPANY</h3>
                         <ul className="mt-4 space-y-2">
-                            <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">About Us</Link></li>
+                            <li><Link href="/about" className="text-sm text-muted-foreground hover:text-primary">About Us</Link></li>
                             <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Contact</Link></li>
                             <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Careers</Link></li>
                         </ul>
@@ -41,8 +41,9 @@ export async function Footer() {
                     <div>
                         <h3 className="font-semibold tracking-wider text-foreground">LEGAL</h3>
                         <ul className="mt-4 space-y-2">
-                            <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Privacy Policy</Link></li>
-                            <li><Link href="#" className="text-sm text-muted-foreground hover:text-primary">Terms of Service</Link></li>
+                            <li><Link href="/privacy" className="text-sm text-muted-foreground hover:text-primary">Privacy Policy</Link></li>
+                            <li><Link href="/terms" className="text-sm text-muted-foreground hover:text-primary">Terms of Service</Link></li>
+                            <li><Link href="/disclaimer" className="text-sm text-muted-foreground hover:text-primary">Disclaimer</Link></li>
                         </ul>
                     </div>
                 </div>
