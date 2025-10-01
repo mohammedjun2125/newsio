@@ -33,11 +33,6 @@ export async function Header() {
           <div className="w-full flex-1 sm:w-auto sm:flex-none">
              <SearchForm />
           </div>
-          <nav>
-            <Button asChild>
-              <Link href="/admin">Admin</Link>
-            </Button>
-          </nav>
         </div>
       </div>
     </header>
