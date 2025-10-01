@@ -8,4 +8,5 @@ export const articleSchema = z.object({
   categoryId: z.string().min(1, "Please select a category."),
   authorId: z.string().min(1, "Please select an author."),
   tags: z.string().transform(val => val.split(',').map(tag => tag.trim())),
+  image: z.any().optional(),
 });
