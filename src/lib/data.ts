@@ -212,6 +212,10 @@ export async function getAuthor(id: string) {
   return authors.find(author => author.id === id) ?? null;
 }
 
+export async function getAuthors() {
+  return [...authors];
+}
+
 // --- Admin Functions (Simulated) ---
 
 export async function createArticle(data: Omit<Article, 'id' | 'date' | 'isFeatured' | 'isPopular'> & { id?: string }) {
