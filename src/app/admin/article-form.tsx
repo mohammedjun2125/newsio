@@ -1,6 +1,6 @@
 "use client";
 
-import { useFormState } from "react-dom";
+import { useActionState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -28,7 +28,6 @@ import { articleSchema } from "./schemas";
 import { createArticle, updateArticle } from "./actions";
 import type { Article, Category, Author } from "@/lib/types";
 import { useToast } from "@/hooks/use-toast";
-import { useEffect } from "react";
 
 type ArticleFormProps = {
   article?: Article;
@@ -60,7 +59,7 @@ export default function ArticleForm({
   const formAction = isEditMode
     ? updateArticle.bind(null, article.slug)
     : createArticle;
-  const [state, dispatch] = useFormState(formAction, { message: "" });
+  const [state, dispatch] = useActionState(formAction, { message: "" });
 
   useEffect(() => {
     if (state.message) {
