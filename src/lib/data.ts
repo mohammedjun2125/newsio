@@ -34,7 +34,7 @@ export async function getArticles(options: { limit?: number; category?: string; 
   let filteredArticles = [...articles];
 
   if (options.category) {
-    const category = categories.find(c => c.slug === options.category);
+    const category = categories.find(c => c.slug.toLowerCase() === options.category?.toLowerCase());
     if (category) {
       filteredArticles = filteredArticles.filter(a => a.categoryId === category.id);
     } else {
@@ -61,7 +61,7 @@ export async function getArticles(options: { limit?: number; category?: string; 
 }
 
 export async function getArticle(slug: string) {
-  return articles.find(article => article.slug === slug) ?? null;
+  return articles.find(article => article.slug.toLowerCase() === slug.toLowerCase()) ?? null;
 }
 
 export async function getPopularArticles(options: { limit?: number } = {}) {
@@ -78,7 +78,7 @@ export async function getCategories() {
 }
 
 export async function getCategory(slug: string) {
-  return categories.find(category => category.slug === slug) ?? null;
+  return categories.find(category => category.slug.toLowerCase() === slug.toLowerCase()) ?? null;
 }
 
 
@@ -88,36 +88,4 @@ export async function getAuthor(id: string) {
 
 export async function getAuthors() {
   return [...authors];
-}
-
-// --- Admin Functions (Simulated) ---
-
-export async function createArticle(data: Omit<Article, 'id' | 'date' | 'isFeatured' | 'isPopular'> & { id?: string }) {
-  const newArticle: Article = {
-    ...data,
-    id: `article-${Date.now()}`,
-    date: new Date().toISOString(),
-    isFeatured: false,
-    isPopular: false,
-  };
-  articles.unshift(newArticle);
-  return newArticle;
-}
-
-export async function updateArticle(slug: string, data: Partial<Article>) {
-  const articleIndex = articles.findIndex(a => a.slug === slug);
-  if (articleIndex === -1) {
-    return null;
-  }
-  articles[articleIndex] = { ...articles[articleIndex], ...data };
-  return articles[articleIndex];
-}
-
-export async function deleteArticle(slug: string) {
-  const articleIndex = articles.findIndex(a => a.slug === slug);
-  if (articleIndex > -1) {
-    articles.splice(articleIndex, 1);
-    return true;
-  }
-  return false;
 }
