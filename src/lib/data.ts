@@ -20,10 +20,10 @@ export const authors: Author[] = [
 ];
 
 export const categories: Category[] = [
-  { id: 'cat-1', slug: 'tech', name: 'Tech' },
-  { id: 'cat-2', slug: 'trending', name: 'Trending' },
-  { id: 'cat-3', slug: 'gadgets', name: 'Gadgets' },
-  { id: 'cat-4', slug: 'general', name: 'General News' },
+  { id: 'cat-1', slug: 'finance-money', name: 'Finance & Money' },
+  { id: 'cat-2', slug: 'insurance-legal', name: 'Insurance & Legal' },
+  { id: 'cat-3', slug: 'technology-ai-tools', name: 'Technology & AI Tools' },
+  { id: 'cat-4', slug: 'health-wellness', name: 'Health & Wellness' },
 ];
 
 let articles: Article[] = [];
