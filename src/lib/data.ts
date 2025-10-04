@@ -80,7 +80,7 @@ let articles: Article[] = [
           <li><strong>Operational Headaches:</strong> Dealing with claims is now a longer, more arduous process. Businesses must invest more time and resources into managing their <strong>insurance risk management strategies</strong>.</li>
       </ol>
       
-      <img src="${findImage('article-legal-crisis-3').imageUrl}" alt="A business person looking concerned while reviewing financial charts" class="my-8 rounded-lg shadow-md" data-ai-hint="financial stress" />
+      <img src="${findImage('article-legal-crisis-3').imageUrl}" alt="A business person looking concerned while reviewing financial charts" class="my-8 rounded-lg shadow-md" data-ai-hint="business concern" />
 
       <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">Your Proactive Defense: How Businesses Can Navigate the Crisis</h2>
       <p class="mb-6">While the market is challenging, businesses are not powerless. Taking a proactive stance can make a significant difference. Here’s <strong>how businesses deal with liability insurance legal risk</strong>:</p>
