@@ -53,6 +53,30 @@
       "description": "A calendar with a date circled, symbolizing a deadline",
       "imageUrl": "https://images.unsplash.com/photo-1552594992-28c23f2f81a8?q=80&w=800&auto=format&fit=crop",
       "imageHint": "deadline date"
+    },
+    {
+      "id": "article-legal-crisis-main",
+      "description": "Main image for the liability insurance crisis article",
+      "imageUrl": "https://images.unsplash.com/photo-1505664194779-8be68b68809a?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "scales justice"
+    },
+    {
+      "id": "article-legal-crisis-1",
+      "description": "Gavel and law books symbolizing legal challenges",
+      "imageUrl": "https://images.unsplash.com/photo-1589216532372-1c2a36790049?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "legal justice"
+    },
+    {
+      "id": "article-legal-crisis-2",
+      "description": "An abstract image representing risk and uncertainty",
+      "imageUrl": "https://images.unsplash.com/photo-1528722828814-6623616c11c9?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "risk uncertainty"
+    },
+    {
+      "id": "article-legal-crisis-3",
+      "description": "A business person looking concerned while reviewing financial charts",
+      "imageUrl": "https://images.unsplash.com/photo-1542744095-fcf48d80b4fd?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "business concern"
     }
   ]
 }
