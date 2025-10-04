@@ -298,6 +298,9 @@ export async function getArticles(options: { limit?: number; category?: string; 
     const category = categories.find(c => c.slug.toLowerCase() === options.category?.toLowerCase());
     if (category) {
       filteredArticles = filteredArticles.filter(a => a.categoryId === category.id);
+    } else {
+      // If a category is specified but not found, return no articles.
+      return [];
     }
   }
 
