@@ -1,4 +1,3 @@
-
 import { getArticle, getAuthor, getCategory } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
@@ -41,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 
-export default async function ArticlePage({ params }: Props) {
+export default async function ArticlePage({ params }: { params: { slug: string }}) {
   const article = await getArticle(params.slug);
 
   if (!article) {
@@ -80,7 +79,7 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         </header>
 
-        <div className="relative mb-8 h-96 w-full rounded-lg">
+        <div className="relative mb-8 h-96 w-full overflow-hidden rounded-lg">
           <Image
             src={article.imageUrl}
             alt={article.title}
@@ -88,6 +87,9 @@ export default async function ArticlePage({ params }: Props) {
             className="rounded-lg object-cover shadow-lg"
             priority
             data-ai-hint={article.imageHint}
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F9PQAI8wNPvd7POQAAAABJRU5ErkJggg=="
+            sizes="(max-width: 1024px) 100vw, 896px"
           />
         </div>
 

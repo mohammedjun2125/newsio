@@ -5,7 +5,6 @@ import { getArticles, getPopularArticles } from '@/lib/data';
 import { formatDate } from '@/lib/utils';
 import { ArticleCard } from '@/components/article-card';
 import { AdBanner } from '@/components/ad-banner';
-import { Button } from '@/components/ui/button';
 import {
   Card,
   CardContent,
@@ -43,6 +42,8 @@ export default async function Home() {
                         className="object-cover"
                         data-ai-hint={featuredArticle.imageHint}
                         sizes="(max-width: 768px) 100vw, 50vw"
+                        placeholder="blur"
+                        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F9PQAI8wNPvd7POQAAAABJRU5ErkJggg=="
                       />
                     </div>
                     <div className="flex flex-col justify-between p-6">
