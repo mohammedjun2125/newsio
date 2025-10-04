@@ -3,31 +3,31 @@
     {
       "id": "author-1",
       "description": "Avatar for Jane Doe",
-      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc1OTI3NTk3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?q=80&w=1080&auto=format&fit=crop",
       "imageHint": "woman portrait"
     },
     {
       "id": "author-2",
       "description": "Avatar for John Smith",
-      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkyNjA1ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?q=80&w=1080&auto=format&fit=crop",
       "imageHint": "man portrait"
     },
     {
       "id": "author-3",
       "description": "Avatar for Alex Ray",
-      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU5MzA2NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=1080&auto=format&fit=crop",
       "imageHint": "person portrait"
     },
     {
       "id": "article-rates-2025",
       "description": "Image for article on rising interest rates",
-      "imageUrl": "https://images.unsplash.com/photo-1604840500198-792eefd7d08f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmaW5hbmNlJTIwZWNvbm9teXxlbnwwfHx8fDE3NTk2MDU3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1604840500198-792eefd7d08f?q=80&w=1080&auto=format&fit=crop",
       "imageHint": "finance economy"
     },
     {
       "id": "article-student-loan-2025",
       "description": "Image for article on student loan forgiveness",
-      "imageUrl": "https://images.unsplash.com/photo-1579621970795-87f91d908377?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdHVkZW50JTIwbG9hbnxlbnwwfHx8fDE3NTk4NjkzNTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579621970795-87f91d908377?q=80&w=1080&auto=format&fit=crop",
       "imageHint": "student loan"
     }
   ]
