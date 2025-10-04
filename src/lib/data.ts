@@ -98,6 +98,78 @@ let articles: Article[] = [
     tags: ['mortgage rates 2025', 'rising interest rates', 'global interest rates', 'loan interest rates', 'refinance loans', 'home equity loans', 'mortgage rates USA', 'mortgage rates UK'],
     isFeatured: true,
     isPopular: true,
+  },
+  {
+    id: 'article-2',
+    slug: 'student-loan-forgiveness-backlog-2025',
+    title: 'Student Loan Forgiveness Backlog & Policy Shake-Ups: What Borrowers Need to Know in 2025',
+    description: 'Confused about US student loan forgiveness in 2025? Learn about backlogs, new policy shifts, tax deadlines, and what steps borrowers should take right now.',
+    content: `
+      <h2 class="text-2xl font-bold mb-4">The Student Loan Confusion of 2025</h2>
+      <p class="mb-6">It’s 2025, and <strong>student loan forgiveness 2025</strong> is once again dominating financial headlines across the United States. Millions of borrowers are anxiously waiting for a <strong>student loan forgiveness update</strong> from the Department of Education, as new rulings, program backlogs, and administrative delays continue to create uncertainty.</p>
+      <p class="mb-6">From <strong>PSLF backlog 2025</strong> to <strong>SAVE plan student loans</strong> court rulings, the system designed to offer <strong>student debt relief programs</strong> has become a maze of policies, appeals, and political debates. If you’re one of the 40+ million Americans holding federal student debt, this year could determine your financial future — especially as key tax exemptions expire at the end of 2025.</p>
+      
+      <h2 class="text-2xl font-bold mt-12 mb-4">What’s Happening Right Now: A Backlog Crisis</h2>
+      <p class="mb-6">The federal government has resumed portions of the student loan forgiveness process that were paused during litigation in 2024. However, the processing <strong>student loan forgiveness backlog</strong> has ballooned. Over 70,000 applications under Public Service Loan Forgiveness (PSLF) are still waiting for review, and Income-Driven Repayment (IDR) programs like SAVE and IBR (<strong>Income-Based Repayment forgiveness</strong>) are facing verification bottlenecks. Borrowers who submitted documentation in early 2024 are now being told to expect results in mid-2026. This has created significant <strong>student loan delays</strong>. Borrowers are advised to check their status frequently on StudentAid.gov and maintain documentation of all submitted records for the latest <strong>Department of Education updates</strong>.</p>
+      
+      <h2 class="text-2xl font-bold mt-12 mb-4">Legal & Policy Shake-Ups: What’s Changing</h2>
+      <p class="mb-6">The policy environment around <strong>US student loan policy changes</strong> remains dynamic. Here are the biggest updates shaping the landscape:</p>
+      <h3 class="text-xl font-bold mt-8 mb-4">a. SAVE Plan on Pause</h3>
+      <p class="mb-4">The Saving on a Valuable Education (SAVE) plan, a new income-driven repayment option, has faced multiple court injunctions. Parts of the program — like automatic forgiveness for low balances — are temporarily halted pending appeal. This is a critical development for those relying on <strong>SAVE plan student loans</strong>.</p>
+      <h3 class="text-xl font-bold mt-8 mb-4">b. PSLF Buyback Program</h3>
+      <p class="mb-4">The <strong>PSLF Buyback program</strong> allows public service workers to retroactively count past periods of forbearance or deferment toward forgiveness. However, technical delays have slowed implementation, and many applicants have not yet seen those months credited.</p>
+      <h3 class="text-xl font-bold mt-8 mb-4">c. Income-Based Repayment Adjustments</h3>
+      <p class="mb-4">The IBR and PAYE programs are being consolidated under a new umbrella to simplify repayment options. This could affect how payments are calculated for <strong>Income-Based Repayment forgiveness</strong> eligibility.</p>
+      <h3 class="text-xl font-bold mt-8 mb-4">d. End of Tax-Free Forgiveness (Dec 31, 2025)</h3>
+      <p class="mb-4">A key deadline looms: under the American Rescue Plan, forgiven student debt is not taxed. This <strong>student loan tax exemption 2025</strong> expires at the end of the year. If forgiveness is delayed into 2026, borrowers may owe thousands in federal income taxes on the forgiven amount, making <strong>forgiven student loans taxable</strong>.</p>
+      <h3 class="text-xl font-bold mt-8 mb-4">e. Private Loan Borrowers Still Excluded</h3>
+      <p class="mb-4">Private student loans remain ineligible for federal forgiveness. However, some private lenders are introducing refinance incentives to help struggling borrowers consolidate debt at lower rates.</p>
+
+      <h2 class="text-2xl font-bold mt-12 mb-4">What Borrowers Should Do Right Now</h2>
+      <p class="mb-6">With so much in flux, here are five steps every borrower should take immediately:</p>
+      <ol class="list-decimal pl-6 space-y-4 mb-6">
+        <li><strong>Check Your Program Eligibility:</strong> Visit studentaid.gov/loan-forgiveness and confirm your enrollment. Use the Loan Simulator to see which forgiveness or repayment plan suits your income and goals. This is the first step to <strong>how to qualify for PSLF forgiveness</strong>.</li>
+        <li><strong>Verify Employer Certification:</strong> For PSLF applicants, ensure your employer’s certification is up to date. Gaps or outdated records can delay forgiveness credit.</li>
+        <li><strong>Keep Organized Documentation:</strong> Maintain proof of payments, deferment, and employment history. Borrowers who can present detailed records have a higher success rate when disputes arise.</li>
+        <li><strong>Plan for Possible Taxation:</strong> If your forgiveness is delayed into 2026, consult a tax advisor. Some borrowers may benefit from setting aside funds for potential tax liabilities, as the answer to "<strong>is student loan forgiveness taxable in 2026</strong>?" might be yes.</li>
+        <li><strong>Stay Informed on Policy Announcements:</strong> Follow official <strong>Department of Education updates</strong>. Avoid scams—legitimate forgiveness information will come only from verified government sources.</li>
+      </ol>
+      
+      <h2 class="text-2xl font-bold mt-12 mb-4">Common Questions Borrowers Are Asking</h2>
+        <div class="space-y-4">
+          <p><strong>❓ Will student loan forgiveness actually happen in 2025?</strong> Yes, but processing times vary. Many forgiveness approvals are expected to roll out gradually through late 2025 to early 2026.</p>
+          <p><strong>❓ What if I was in forbearance during COVID?</strong> Those months may still count toward forgiveness if you qualify under the <strong>PSLF Buyback program</strong> or the IDR adjustment initiative.</p>
+          <p><strong>❓ Can I switch repayment plans?</strong> Yes, switching to an income-driven repayment plan can help lower monthly payments and maintain forgiveness eligibility.</p>
+          <p><strong>❓ What happens after Dec 31, 2025?</strong> If the tax exemption expires, forgiven student debt may become taxable income starting in 2026.</p>
+        </div>
+
+      <h2 class="text-2xl font-bold mt-12 mb-4">Conclusion: Stay Ready, Stay Informed</h2>
+      <p class="mb-6">The student loan forgiveness landscape in 2025 is complex, evolving, and emotionally exhausting for millions of Americans. But amidst the delays and debates, one thing remains clear: information is power. Knowing <strong>how to check student loan forgiveness status</strong>, keeping records updated, and following verified updates can make the difference between receiving relief and missing out. Staying proactive is the best financial move you can make this year.</p>
+        
+      <div class="mt-12 p-6 bg-secondary rounded-lg">
+          <h3 class="text-xl font-bold mb-2">Get Weekly Updates</h3>
+          <p>Want weekly updates on student loan forgiveness news, rate changes, and eligibility tools? Subscribe to our finance newsletter to get expert insights that help you navigate the evolving 2025 loan landscape.</p>
+      </div>
+    `,
+    imageUrl: findImage('article-student-loan-2025').imageUrl,
+    imageHint: findImage('article-student-loan-2025').imageHint,
+    date: subDays(new Date(), 1).toISOString(),
+    authorId: 'author-2',
+    categoryId: 'cat-1',
+    tags: [
+        'student loan forgiveness 2025', 
+        'PSLF backlog 2025', 
+        'SAVE plan student loans', 
+        'student loan forgiveness update', 
+        'US student loan policy changes', 
+        'Income-Based Repayment forgiveness',
+        'student debt relief programs',
+        'student loan forgiveness delays',
+        'PSLF Buyback program',
+        'student loan tax exemption 2025'
+    ],
+    isFeatured: false,
+    isPopular: true,
   }
 ];
 
@@ -161,4 +233,33 @@ export async function getAuthor(id: string) {
 
 export async function getAuthors() {
   return [...authors];
+}
+
+// --- Data Mutation Functions ---
+
+export async function createArticle(articleData: Omit<Article, 'id' | 'date' | 'isFeatured' | 'isPopular'>) {
+    const newArticle: Article = {
+        ...articleData,
+        id: `article-${Date.now()}`,
+        date: new Date().toISOString(),
+        isFeatured: false,
+        isPopular: false,
+    };
+    articles.unshift(newArticle);
+    return newArticle;
+}
+
+export async function updateArticle(slug: string, articleData: Partial<Article>) {
+    const articleIndex = articles.findIndex(a => a.slug === slug);
+    if (articleIndex === -1) {
+        throw new Error("Article not found");
+    }
+    articles[articleIndex] = { ...articles[articleIndex], ...articleData };
+    return articles[articleIndex];
+}
+
+export async function deleteArticle(slug: string) {
+    const initialLength = articles.length;
+    articles = articles.filter(a => a.slug !== slug);
+    return articles.length < initialLength;
 }
