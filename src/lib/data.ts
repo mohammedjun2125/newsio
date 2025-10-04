@@ -299,8 +299,7 @@ export async function getArticles(options: { limit?: number; category?: string; 
     if (category) {
       filteredArticles = filteredArticles.filter(a => a.categoryId === category.id);
     } else {
-      // If a category is specified but not found, return no articles.
-      return [];
+      return []; // No articles if category doesn't exist
     }
   }
 
