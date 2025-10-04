@@ -8,12 +8,15 @@ import { AdBanner } from '@/components/ad-banner';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
+const URL = 'https://newsio.com'; // Replace with your actual domain
+
 type Props = {
   params: { slug: string };
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const article = await getArticle(params.slug);
+  const awaitedParams = await params;
+  const article = await getArticle(awaitedParams.slug);
 
   if (!article) {
     return {
@@ -24,6 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: article.title,
     description: article.description,
+    alternates: {
+      canonical: `${URL}/articles/${article.slug}`,
+    },
     openGraph: {
         title: article.title,
         description: article.description,
@@ -41,7 +47,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 
 export default async function ArticlePage({ params }: { params: { slug: string }}) {
-  const article = await getArticle(params.slug);
+  const awaitedParams = await params;
+  const article = await getArticle(awaitedParams.slug);
 
   if (!article) {
     notFound();
