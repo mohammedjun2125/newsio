@@ -3,32 +3,56 @@
     {
       "id": "author-1",
       "description": "Avatar for Jane Doe",
-      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?q=80&w=1080&auto=format&fit=crop",
+      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?q=80&w=600&auto=format&fit=crop",
       "imageHint": "woman portrait"
     },
     {
       "id": "author-2",
       "description": "Avatar for John Smith",
-      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?q=80&w=1080&auto=format&fit=crop",
+      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?q=80&w=600&auto=format&fit=crop",
       "imageHint": "man portrait"
     },
     {
       "id": "author-3",
       "description": "Avatar for Alex Ray",
-      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=1080&auto=format&fit=crop",
+      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=600&auto=format&fit=crop",
       "imageHint": "person portrait"
     },
     {
       "id": "article-rates-2025",
       "description": "Image for article on rising interest rates",
-      "imageUrl": "https://images.unsplash.com/photo-1604840500198-792eefd7d08f?q=80&w=1080&auto=format&fit=crop",
-      "imageHint": "finance economy"
+      "imageUrl": "https://images.unsplash.com/photo-1559135160-c3a52554273b?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "house keys"
+    },
+    {
+      "id": "article-rates-2025-2",
+      "description": "A chart showing rising interest rates",
+      "imageUrl": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "finance chart"
+    },
+    {
+      "id": "article-rates-2025-3",
+      "description": "A person reviewing their finances and mortgage documents",
+      "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04421cd6c3?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "personal finance"
     },
     {
       "id": "article-student-loan-2025",
       "description": "Image for article on student loan forgiveness",
-      "imageUrl": "https://images.unsplash.com/photo-1579621970795-87f91d908377?q=80&w=1080&auto=format&fit=crop",
-      "imageHint": "student loan"
+      "imageUrl": "https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "graduation cap"
+    },
+    {
+      "id": "article-student-loan-2025-2",
+      "description": "A person looking stressed while reviewing documents",
+      "imageUrl": "https://images.unsplash.com/photo-1544376798-89aa6b82c330?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "financial stress"
+    },
+    {
+      "id": "article-student-loan-2025-3",
+      "description": "A calendar with a date circled, symbolizing a deadline",
+      "imageUrl": "https://images.unsplash.com/photo-1552594992-28c23f2f81a8?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "deadline date"
     }
   ]
 }
