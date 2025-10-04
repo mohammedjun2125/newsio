@@ -298,8 +298,6 @@ export async function getArticles(options: { limit?: number; category?: string; 
     const category = categories.find(c => c.slug.toLowerCase() === options.category?.toLowerCase());
     if (category) {
       filteredArticles = filteredArticles.filter(a => a.categoryId === category.id);
-    } else {
-      return []; // No articles if category doesn't exist
     }
   }
 
@@ -322,7 +320,13 @@ export async function getArticles(options: { limit?: number; category?: string; 
 }
 
 export async function getArticle(slug: string) {
-  return articles.find(article => article.slug.toLowerCase() === slug.toLowerCase()) ?? null;
+    try {
+        const decodedSlug = decodeURIComponent(slug);
+        return articles.find(article => article.slug.toLowerCase() === decodedSlug.toLowerCase()) ?? null;
+    } catch (e) {
+        console.error("Error decoding slug:", e);
+        return null;
+    }
 }
 
 export async function getPopularArticles(options: { limit?: number } = {}) {
