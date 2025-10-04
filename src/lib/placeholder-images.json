@@ -17,6 +17,12 @@
       "description": "Avatar for Alex Ray",
       "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU5MzA2NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person portrait"
+    },
+    {
+      "id": "article-rates-2025",
+      "description": "Image for article on rising interest rates",
+      "imageUrl": "https://images.unsplash.com/photo-1604840500198-792eefd7d08f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmaW5hbmNlJTIwZWNvbm9teXxlbnwwfHx8fDE3NTk2MDU3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance economy"
     }
   ]
 }
