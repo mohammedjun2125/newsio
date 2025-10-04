@@ -299,7 +299,8 @@ export async function getArticles(options: { limit?: number; category?: string; 
     if (category) {
       filteredArticles = filteredArticles.filter(a => a.categoryId === category.id);
     } else {
-      return []; // No articles if category doesn't exist
+      // If the category doesn't exist, we should return no articles for that category page.
+      return [];
     }
   }
 
@@ -345,7 +346,13 @@ export async function getCategories() {
 }
 
 export async function getCategory(slug: string) {
-  return categories.find(category => category.slug.toLowerCase() === slug.toLowerCase()) ?? null;
+  try {
+    const decodedSlug = decodeURIComponent(slug);
+    return categories.find(category => category.slug.toLowerCase() === decodedSlug.toLowerCase()) ?? null;
+  } catch (e) {
+    console.error("Error decoding slug:", e);
+    return null;
+  }
 }
 
 
