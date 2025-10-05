@@ -1,5 +1,5 @@
 import { getArticle, getAuthors, getCategories } from "@/lib/data";
-import ArticleForm from "../article-form";
+import ArticleForm from "@/app/admin/article-form";
 import { notFound } from "next/navigation";
 
 export default async function EditArticlePage({ params }: { params: { slug: string }}) {

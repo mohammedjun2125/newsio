@@ -1,5 +1,5 @@
 import { getAuthors, getCategories } from "@/lib/data";
-import ArticleForm from "../article-form";
+import ArticleForm from "@/app/admin/article-form";
 
 export default async function NewArticlePage() {
   const categories = await getCategories();
