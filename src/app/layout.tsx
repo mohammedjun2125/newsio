@@ -5,6 +5,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { SiteWrapper } from '@/components/site-wrapper';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
+import { ThemeProvider } from 'next-themes';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -59,13 +60,20 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} font-body antialiased`}>
-        <SiteWrapper
-          header={<Header />}
-          footer={<Footer />}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
         >
-          {children}
-        </SiteWrapper>
-        <Toaster />
+          <SiteWrapper
+            header={<Header />}
+            footer={<Footer />}
+          >
+            {children}
+          </SiteWrapper>
+          <Toaster />
+        </ThemeProvider>
       </body>
     </html>
   );
