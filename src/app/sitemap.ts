@@ -1,56 +1,42 @@
-import { getArticles, getCategories } from '@/lib/data';
-import type { MetadataRoute } from 'next';
-
-const URL = 'https://www.newsio.space'; // Use the full, correct domain
+import { MetadataRoute } from "next";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const articles = await getArticles();
-  const categories = await getCategories();
+  const baseUrl = "https://www.newsio.space";
 
-  const articleEntries: MetadataRoute.Sitemap = articles.map(({ slug, date }) => ({
-    url: `${URL}/articles/${slug}`,
-    lastModified: new Date(date),
-    priority: 0.7,
-  }));
-
-  const categoryEntries: MetadataRoute.Sitemap = categories.map(({ slug }) => ({
-    url: `${URL}/category/${slug}`,
-    lastModified: new Date(),
-    priority: 0.6,
-  }));
-
-  const staticPages: MetadataRoute.Sitemap = [
-    {
-      url: URL,
-      lastModified: new Date(),
-      priority: 1.0,
-    },
-    {
-      url: `${URL}/about`,
-      lastModified: new Date(),
-      priority: 0.8,
-    },
-    {
-      url: `${URL}/contact`,
-      lastModified: new Date(),
-      priority: 0.8,
-    },
-     {
-      url: `${URL}/privacy`,
-      lastModified: new Date(),
-      priority: 0.5,
-    },
-    {
-      url: `${URL}/terms`,
-      lastModified: new Date(),
-      priority: 0.5,
-    },
-     {
-      url: `${URL}/disclaimer`,
-      lastModified: new Date(),
-      priority: 0.5,
-    },
+  // Static pages
+  const staticPages = [
+    "",
+    "/about",
+    "/contact",
+    "/category/finance-money",
+    "/category/insurance-legal",
+    "/category/technology-ai-tools",
+    "/category/health-wellness",
   ];
 
-  return [...staticPages, ...categoryEntries, ...articleEntries];
+  // Dynamically fetch all article slugs if you use an API or local folder
+  // Example 1: If you store posts locally in /articles
+  // const articles = getAllArticles().map(article => `/articles/${article.slug}`);
+
+  // Example 2: If you use an API endpoint for posts
+  // const res = await fetch(`${baseUrl}/api/articles`);
+  // const articlesData = await res.json();
+  // const articles = articlesData.map((a: any) => `/articles/${a.slug}`);
+
+  // TEMPORARY: hardcoded list (remove this if you enable dynamic fetch)
+  const articles = [
+    "/articles/ai-in-insurance-legal-challenges-2025",
+    "/articles/rising-interest-mortgage-rates-2025",
+    "/articles/student-loan-forgiveness-backlog-2025",
+    "/articles/us-liability-insurance-crisis-2025",
+  ];
+
+  const now = new Date().toISOString();
+
+  // Combine all URLs
+  return [...staticPages, ...articles].map((path, i) => ({
+    url: `${baseUrl}${path}`,
+    lastModified: now,
+    priority: i === 0 ? 1 : 0.64,
+  }));
 }
