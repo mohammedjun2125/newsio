@@ -1,7 +1,7 @@
 import { getArticles, getCategories } from '@/lib/data';
 import type { MetadataRoute } from 'next';
 
-const URL = 'https://newsio.space'; // Replace with your actual domain
+const URL = 'https://www.newsio.space'; // Use the full, correct domain
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const articles = await getArticles();
