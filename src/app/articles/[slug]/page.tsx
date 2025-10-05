@@ -15,8 +15,7 @@ type Props = {
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const awaitedParams = await params;
-  const article = await getArticle(awaitedParams.slug);
+  const article = await getArticle(params.slug);
 
   if (!article) {
     return {
@@ -47,8 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 
 export default async function ArticlePage({ params }: { params: { slug: string }}) {
-  const awaitedParams = await params;
-  const article = await getArticle(awaitedParams.slug);
+  const article = await getArticle(params.slug);
 
   if (!article) {
     notFound();
@@ -101,7 +99,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
-            <div className="prose prose-lg max-w-none md:col-span-3 dark:prose-invert" dangerouslySetInnerHTML={{ __html: article.content }} />
+            <section className="prose prose-lg max-w-none md:col-span-3 dark:prose-invert" dangerouslySetInnerHTML={{ __html: article.content }} />
             <aside className='md:col-span-1'>
                 <div className='sticky top-24'>
                     <AdBanner />
