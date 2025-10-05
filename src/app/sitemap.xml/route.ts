@@ -1,6 +1,5 @@
 
 import { getArticles, getCategories } from '@/lib/data';
-import { MetadataRoute } from 'next';
 
 const URL = 'https://newsio.com'; // Replace with your actual domain
 
