@@ -3,8 +3,9 @@ import ArticleForm from "@/app/admin/article-form";
 import { notFound } from "next/navigation";
 
 export default async function EditArticlePage({ params }: { params: { slug: string }}) {
+  const awaitedParams = await params;
   const [article, categories, authors] = await Promise.all([
-    getArticle(params.slug),
+    getArticle(awaitedParams.slug),
     getCategories(),
     getAuthors(),
   ]);
