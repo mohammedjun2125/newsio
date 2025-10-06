@@ -20,11 +20,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Newsio - Your Daily Tech News',
     description: 'The latest articles in tech, AI, gadgets, and trending topics.',
-    url: 'https://newsio.com', // Replace with your actual domain
+    url: 'https://www.newsio.space', // Replace with your actual domain
     siteName: 'Newsio',
     images: [
       {
-        url: 'https://newsio.com/og-image.jpg', // Replace with your actual OG image URL
+        url: 'https://www.newsio.space/og-image.jpg', // Replace with your actual OG image URL
         width: 1200,
         height: 630,
         alt: 'Newsio - Tech News and Analysis',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: 'Newsio - Your Daily Tech News',
     description: 'The latest articles in tech, AI, gadgets, and trending topics.',
     // creator: '@yourtwitterhandle', // Replace with your Twitter handle
-    images: ['https://newsio.com/twitter-image.jpg'], // Replace with your actual Twitter image URL
+    images: ['https://www.newsio.space/twitter-image.jpg'], // Replace with your actual Twitter image URL
   },
   robots: {
     index: true,
