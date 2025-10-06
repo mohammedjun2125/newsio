@@ -9,6 +9,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "",
     "/about",
     "/contact",
+    "/privacy",
+    "/terms",
+    "/disclaimer",
     "/category/finance-money",
     "/category/insurance-legal",
     "/category/technology-ai-tools",
@@ -24,7 +27,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const articlePages = articles.map((article) => ({
     url: `${baseUrl}/articles/${article.slug}`,
     lastModified: new Date(article.date).toISOString(),
-    priority: 0.64,
+    priority: 0.7,
   }));
 
 
