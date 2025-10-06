@@ -8,8 +8,7 @@ type Props = {
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const awaitedParams = await params;
-    const { categoryName } = awaitedParams;
+    const { categoryName } = params;
     const category = await getCategory(categoryName);
   
     if (!category) {
@@ -25,8 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
 export default async function CategoryPage({ params }: Props) {
-  const awaitedParams = await params;
-  const { categoryName } = awaitedParams;
+  const { categoryName } = params;
   const category = await getCategory(categoryName);
 
   if (!category) {
