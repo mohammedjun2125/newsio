@@ -6,6 +6,7 @@ import { SiteWrapper } from '@/components/site-wrapper';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { ThemeProvider } from 'next-themes';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -74,6 +75,7 @@ export default function RootLayout({
           </SiteWrapper>
           <Toaster />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
