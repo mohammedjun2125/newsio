@@ -2,6 +2,7 @@ import { getArticles, getCategory } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { ArticleCard } from '@/components/article-card';
 import type { Metadata } from 'next';
+import { GoBackButton } from '@/components/go-back-button';
 
 type Props = {
   params: { categoryName: string };
@@ -35,6 +36,7 @@ export default async function CategoryPage({ params }: Props) {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <GoBackButton />
       <header className="mb-8 border-b pb-4">
         <h1 className="font-headline text-4xl font-bold">{category.name}</h1>
         <p className="mt-2 text-lg text-muted-foreground">

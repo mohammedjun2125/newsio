@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { AdBanner } from '@/components/ad-banner';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { GoBackButton } from '@/components/go-back-button';
 
 const URL = 'https://newsio.com'; // Replace with your actual domain
 
@@ -57,6 +58,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
   return (
     <div className="container mx-auto max-w-4xl px-4 py-8">
+      <GoBackButton />
       <article>
         <header className="mb-8">
           {category && (
