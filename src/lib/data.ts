@@ -28,7 +28,7 @@ let articles: Article[] = [
             <p class="mb-6 text-lg">In the first week of October 2025 Bitcoin rallied sharply, moving past prior all-time highs and trading above $120,000–$125,000 in parts of global trading. Most market commentators point to big daily inflows into US spot Bitcoin ETFs — billions of dollars over recent days — as the primary liquidity driver that has pushed prices higher. Large ETF purchases convert cash into institutional exposure to Bitcoin in a regulated wrapper, and when inflows are concentrated, price pressure follows.</p>
             <p class="mb-6 text-lg"><strong>Why this matters:</strong> ETFs make it simple for large asset managers, pension funds, and retail funds to gain Bitcoin exposure without custody complexity. When that demand arrives at scale, markets reprice quickly — exactly what we saw in October 2025.</p>
             
-            <img src="https://picsum.photos/seed/bitcoin-etf-flow/800/450" alt="Chart showing ETF inflows for Bitcoin" class="my-8 rounded-lg shadow-md" data-ai-hint="bitcoin etf" />
+            <img src="https://images.pexels.com/photos/8437002/pexels-photo-8437002.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Chart showing ETF inflows for Bitcoin" class="my-8 rounded-lg shadow-md" data-ai-hint="bitcoin etf" loading="lazy" width="800" height="400" />
 
             <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">The data: flows, price action and macro context</h2>
             <p class="mb-6 text-lg">Concrete market signals to watch:</p>
@@ -48,7 +48,7 @@ let articles: Article[] = [
             </ul>
             <p class="mb-6 text-lg">The result: when several large managers and funds decide to allocate (or re-allocate) to spot BTC ETFs, the cumulative demand can be large enough to move markets. For investors, that means ETF inflows function like a steady bid under price — but also means price may be sensitive to ETF flows reversing.</p>
             
-            <img src="https://picsum.photos/seed/institutional-investing/800/450" alt="Image of financial district skyscrapers representing institutional investment" class="my-8 rounded-lg shadow-md" data-ai-hint="institutional finance" />
+            <img src="https://images.unsplash.com/photo-1621504450181-5b80a3b7a5d1?auto=format&fit=crop&w=1200&q=80" alt="Image of financial district skyscrapers representing institutional investment" class="my-8 rounded-lg shadow-md" data-ai-hint="institutional finance" loading="lazy" width="800" height="400" />
 
             <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">What this rally means for retail investors (US, UK, and international)</h2>
             <p class="mb-6 text-lg"><strong>Opportunity vs. risk:</strong> High returns attract retail investors, but late-stage rallies are often followed by volatility. Consider dollar-cost averaging (DCA) into exposure rather than lump sums.</p>
@@ -83,7 +83,7 @@ let articles: Article[] = [
                 <p>The October 2025 rally underlines how capital flows — especially via institutional vehicles like spot Bitcoin ETFs — can rapidly reprice markets. If you’re thinking of getting involved, clarify your timeline and risk tolerance, prefer regulated vehicles for simpler compliance, use DCA to reduce timing risk, and always account for taxes. Monitor ETF flow data and central-bank commentary as near-term market drivers.</p>
             </div>
         `,
-        imageUrl: 'https://picsum.photos/seed/bitcoin-record-2025/800/600',
+        imageUrl: 'https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=1200',
         imageHint: 'bitcoin record high',
         date: new Date().toISOString(),
         authorId: 'author-1',
@@ -106,7 +106,7 @@ let articles: Article[] = [
       <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">1. What Happened? The Facts (Fast)</h2>
       <p class="mb-6 text-lg">In early October 2025, the <strong>Bitcoin price</strong> surged to new all-time highs, breaking the psychological barrier of $125,000. This rally wasn't just another volatile swing; it was underpinned by significant, measurable shifts in the financial landscape. U.S. <strong>spot Bitcoin ETFs</strong> recorded massive net inflows, with some weeks seeing multi-billion dollar additions. Financial giants like BlackRock saw their IBIT fund lead the charge, highlighting the immense new demand from institutional players. Simultaneously, macroeconomic uncertainty, including political risks and concerns about the U.S. dollar's stability amid government shutdown talks, pushed investors toward assets perceived as stores of value, with Bitcoin and gold being primary beneficiaries.</p>
 
-      <img src="https://picsum.photos/seed/bitcoin-chart-up/800/450" alt="A financial chart showing a sharp increase in Bitcoin's price" class="my-8 rounded-lg shadow-md" data-ai-hint="bitcoin chart" />
+      <img src="https://images.unsplash.com/photo-1618835962140-7e65efb94f83?auto=format&fit=crop&w=1200&q=80" alt="A financial chart showing a sharp increase in Bitcoin's price" class="my-8 rounded-lg shadow-md" data-ai-hint="bitcoin chart" loading="lazy" width="800" height="400" />
 
       <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">2. Why Spot Bitcoin ETFs Are a Game-Changer</h2>
       <p class="mb-6 text-lg">To understand this rally, you must understand why <strong>spot Bitcoin ETFs</strong> are fundamentally different from previous crypto investment vehicles. These ETFs allow mainstream investors—from large pension funds to everyday retail investors using standard brokerage accounts—to gain exposure to Bitcoin's price without the complexities of owning the asset directly. This is a critical distinction for several reasons:</p>
@@ -125,7 +125,7 @@ let articles: Article[] = [
         <li><strong>Positive Momentum & Social Proof:</strong> Nothing attracts a crowd like a rising price. The initial rally generated widespread media coverage, fueling retail FOMO (Fear Of Missing Out). This created a classic positive feedback loop, where rising prices attract more buyers, pushing prices even higher. ETFs make it easier than ever for the average person to act on this impulse.</li>
       </ol>
 
-      <img src="https://picsum.photos/seed/institutional-investor/800/450" alt="An image of a modern office building, symbolizing institutional investment" class="my-8 rounded-lg shadow-md" data-ai-hint="institutional finance" />
+      <img src="https://images.unsplash.com/photo-1621504450181-5b80a3b7a5d1?auto=format&fit=crop&w=1200&q=80" alt="An image of a modern office building, symbolizing institutional investment" class="my-8 rounded-lg shadow-md" data-ai-hint="institutional finance" loading="lazy" width="800" height="400" />
 
       <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">4. The Major Risks & Counterarguments to Consider</h2>
       <p class="mb-6 text-lg">While the <strong>Bitcoin price prediction 2025</strong> looks bullish, this rally is not without significant risks. It's crucial for any potential investor to understand the downsides:</p>
@@ -148,7 +148,7 @@ let articles: Article[] = [
       <h3 class="text-2xl font-bold mt-8 mb-4">For Active Traders & Speculators:</h3>
       <p class="mb-4">Strict risk management is non-negotiable. The volatility that offers potential for high returns also creates the risk of significant drawdowns. Using leverage or margin in this environment amplifies these risks exponentially.</p>
 
-      <img src="https://picsum.photos/seed/bitcoin-wallet-security/800/450" alt="A secure vault, symbolizing a secure Bitcoin wallet" class="my-8 rounded-lg shadow-md" data-ai-hint="bitcoin wallet" />
+      <img src="https://images.pexels.com/photos/315788/pexels-photo-315788.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="A secure vault, symbolizing a secure Bitcoin wallet" class="my-8 rounded-lg shadow-md" data-ai-hint="bitcoin wallet" loading="lazy" width="800" height="400" />
 
       <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">6. What to Watch Next</h2>
       <p class="mb-6 text-lg">To gauge the market's direction, keep a close eye on these key indicators:</p>
@@ -163,7 +163,7 @@ let articles: Article[] = [
         <p>The 2025 Bitcoin rally is more than just another crypto bull run; it's a landmark moment defined by institutional adoption and newfound legitimacy. The introduction of spot Bitcoin ETFs has fundamentally altered the market structure, opening the door for a new wave of capital. However, the path forward is unlikely to be a straight line. Volatility and regulatory risks remain significant. For investors, the key is to approach the market with a clear strategy, a deep understanding of the risks, and a long-term perspective. Whether you choose to <strong>buy Bitcoin with credit card</strong> on an exchange or invest through a regulated ETF, informed decisions will be paramount to navigating the exciting and challenging road ahead.</p>
       </div>
     `,
-    imageUrl: 'https://picsum.photos/seed/bitcoin-rally-2025/800/600',
+    imageUrl: 'https://images.pexels.com/photos/8437002/pexels-photo-8437002.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageHint: 'bitcoin rally',
     date: subDays(new Date(), 1).toISOString(),
     authorId: 'author-1',
