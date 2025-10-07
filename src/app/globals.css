@@ -63,7 +63,13 @@
   * {
     @apply border-border;
   }
+  html {
+    @apply scroll-smooth;
+  }
   body {
     @apply bg-background text-foreground;
+  }
+  img, video {
+    @apply max-w-full h-auto;
   }
 }
