@@ -17,6 +17,121 @@ export const categories: Category[] = [
 
 let articles: Article[] = [
     {
+        id: 'article-12',
+        slug: 'dmcc-act-digital-consumer-rights-legal-trends-2025',
+        title: 'How the DMCC Act & Digital Consumer Rights Are Disrupting UK & Global Legal Landscapes (2025)',
+        description: 'Explore how the DMCC Act is changing digital consumer rights, what businesses must do to comply, recent enforcement actions, and what’s coming next for UK & international legal risk.',
+        content: `
+            <p class="mb-6 text-lg">2025 is shaping up to be a landmark year for digital consumer rights. With the UK’s Digital Markets, Competition and Consumers Act (DMCC Act) coming into force, regulators now hold far stronger powers to enforce rules around consumer protection online. From misleading reviews and price promotions, to “Buy Now, Pay Later” (BNPL) regulation and data transparency, companies are facing rising legal and reputational risk. Internationally, these trends are mirrored by stronger consumer protection laws in the EU, US states, and Asia. For legal teams, in-house counsel and businesses operating online, understanding this shift is no longer optional—it’s essential for compliance, risk mitigation, and competitive advantage.</p>
+            
+            <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">1. What is the DMCC Act & Key Provisions Affecting Businesses</h2>
+            <p class="mb-6 text-lg">The Digital Markets, Competition and Consumers Act 2024 gives UK regulators (especially the Competition and Markets Authority, CMA) amplified enforcement capability over digital services, e-commerce marketplaces, and consumer-facing online business models.</p>
+            <img src="https://picsum.photos/seed/digital-law/800/450" alt="Digital representation of legal scales and code" class="my-8 rounded-lg shadow-md" data-ai-hint="digital law" loading="lazy" />
+            <h3 class="text-2xl font-bold mt-8 mb-4">Key features include:</h3>
+            <ul class="list-disc list-inside space-y-3 mb-6">
+                <li>Penalties of up to <strong>10% of global turnover</strong> for breaches in digital consumer law.</li>
+                <li>New rules on misleading pricing, <strong>drip pricing</strong>, and fake/misleading reviews—particularly relevant to e-commerce platforms and travel.</li>
+                <li>Stronger powers for CMA to directly enforce consumer law (before DMCC, enforcement was often slower or more fragmented).</li>
+                <li>Expanded scope: including digital firms, marketplaces, possibly subscription models and platforms under scrutiny.</li>
+            </ul>
+
+            <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">2. Global Echoes: How Other Jurisdictions Are Catching Up</h2>
+            <p class="mb-6 text-lg">While the UK’s DMCC Act is one of the more comprehensive schemes, many countries are tightening consumer law enforcement in the digital space:</p>
+            <ul class="list-disc list-inside space-y-3 mb-6">
+                <li><strong>EU:</strong> Through various directives and enforcement bodies, EU member states are increasing scrutiny of online platforms, consumer reviews, and algorithmic fairness.</li>
+                <li><strong>US:</strong> State attorneys general are stepping up enforcement of consumer protection laws online; the FTC is revising its approaches to unfair or deceptive trade practices.</li>
+                <li><strong>Asia & Australia:</strong> Regulatory bodies are updating laws around digital content, platform liability, and financial tech (including BNPL).</li>
+            </ul>
+            <p class="mb-6 text-lg">These global developments mean that businesses operating internationally will need to manage cross-border compliance, reputational risk, and potential multi-jurisdictional enforcement.</p>
+
+            <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">3. Major Legal Risks & Enforcement Cases to Watch</h2>
+            <p class="mb-6 text-lg">With the DMCC Act in force, several risk areas are already seen in early enforcement actions or warnings:</p>
+            <ul class="list-disc list-inside space-y-3 mb-6">
+                <li><strong>Misleading reviews / fake testimonials:</strong> Platforms may be held liable if they allow or fail to police false or manipulated customer reviews.</li>
+                <li><strong>Drip pricing:</strong> Failure to include all mandatory fees in advertised prices is a known issue. Regulators are cracking down.</li>
+                <li><strong>BNPL services & debt transparency:</strong> Questions around affordability, hidden fees, and whether consumers receive adequate disclosures.</li>
+                <li><strong>Global turnover penalties:</strong> The possibility of fines amounting to 10% of global turnover makes the stakes extremely high for large digital firms.</li>
+            </ul>
+            <p class="mb-6 text-lg">Real cases are emerging (or expected). For example, under the DMCC Act, CMA is predicted to target sectors with high complaint volumes: travel, e-commerce, digital subscription services.</p>
+
+            <img src="https://picsum.photos/seed/compliance-checklist/800/450" alt="A checklist on a clipboard representing compliance" class="my-8 rounded-lg shadow-md" data-ai-hint="compliance checklist" loading="lazy" />
+
+            <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">4. What Businesses & Legal Teams Should Do Now for Compliance</h2>
+            <p class="mb-6 text-lg">To avoid enforcement risk, reputational damage, and lawsuits, business and legal teams should take proactive steps:</p>
+            <ul class="list-disc list-inside space-y-3 mb-6">
+                <li><strong>Audit your pricing & fee disclosures:</strong> Ensure all mandatory fees are clearly disclosed upfront; avoid surprises for consumers.</li>
+                <li><strong>Manage review systems carefully:</strong> Have policies & moderation for user reviews, prevent fake/fraudulent reviews, be ready to respond to consumer complaints.</li>
+                <li><strong>BNPL & credit-like services:</strong> Ensure clear terms, affordability checks, and full compliance with consumer credit regulations in relevant jurisdictions.</li>
+                <li><strong>Train marketing teams & platform operators:</strong> So that promotions, price comparisons, and advertising comply with new rules.</li>
+                <li><strong>Update contracts & terms of service:</strong> Reflect your obligations under DMCC / local digital consumer laws. Include indemnities, warranties around compliance.</li>
+                <li><strong>Monitor enforcement and regulatory guidance:</strong> CMA and similar bodies often publish guidance and reports—these anticipate areas of enforcement focus.</li>
+            </ul>
+
+            <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">5. SEO Content & Marketing Risks: Reputation + Litigation Exposure</h2>
+            <p class="mb-6 text-lg">Digital consumer law intersects with marketing, PR, litigation, and compliance in ways that make digital content strategy risky:</p>
+            <ul class="list-disc list-inside space-y-3 mb-6">
+                <li>User generated content (UGC) on websites (reviews, forums) can create liability if misleading.</li>
+                <li>Influencer marketing: Endorsements must comply with consumer protection laws; undisclosed paid promotions can lead to legal action.</li>
+                <li>Comparisons & affiliate marketing: Representing competitors or comparative claims must be accurate, up-to-date, and not misleading.</li>
+                <li>Data privacy overlap: Consumer rights often link to data collection, automated decisions, cookies—non-compliance with privacy law can compound risk.</li>
+            </ul>
+            <p class="mb-6 text-lg">Legal exposure isn’t only regulatory fines—it may include consumer class actions, private litigation, reputational damage, and even cross-border claims.</p>
+
+            <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">6. Future Trends & What to Expect Through 2025-2026</h2>
+            <p class="mb-6 text-lg">Looking forward, several developments appear likely:</p>
+            <ul class="list-disc list-inside space-y-3 mb-6">
+                <li><strong>Stricter global alignment:</strong> More jurisdictions will model consumer law reforms on DMCC or EU rules.</li>
+                <li><strong>Platform liability increasing:</strong> Online platforms will be expected to do more active policing of consumer-facing content.</li>
+                <li><strong>Rise of AI regulation overlapping:</strong> As AI tools are used for reviews, recommendations, pricing algorithms—regulation will target algorithmic fairness, bias, transparency.</li>
+                <li><strong>More class/collective actions in consumer law:</strong> When many consumers are harmed by a breach (misleading advertising, unfair terms), class actions or group claims likely increase.</li>
+                <li><strong>Transparency in supply chains & sustainability claims:</strong> Consumer demand and regulation will put brands under pressure to substantiate claims (e.g. “green”, “ethical”)—bogus or vague claims will be challenged.</li>
+            </ul>
+
+            <div class="mt-12 p-6 bg-muted dark:bg-muted/20 rounded-lg">
+                <h3 class="text-2xl font-bold mb-2">Example FAQ</h3>
+                <div itemscope itemtype="https://schema.org/FAQPage">
+                    <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question" class="mb-4">
+                        <h4 itemprop="name" class="font-semibold">Q: What is the DMCC Act and when did it come into force?</h4>
+                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                            <p itemprop="text">A: The Digital Markets, Competition and Consumers Act 2024 gives the CMA expanded enforcement powers over digital consumer law. Key provisions (such as misleading advertising, fake reviews, drip pricing) began to take effect in 2025.</p>
+                        </div>
+                    </div>
+                    <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question" class="mb-4">
+                        <h4 itemprop="name" class="font-semibold">Q: What kinds of businesses are most at risk under DMCC enforcement?</h4>
+                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                            <p itemprop="text">A: E-commerce platforms, online marketplaces, subscription-based services, BNPL providers, businesses using influencer marketing or user reviews are especially exposed.</p>
+                        </div>
+                    </div>
+                    <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+                        <h4 itemprop="name" class="font-semibold">Q: Are fake or misleading reviews illegal in the UK now?</h4>
+                        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+                            <p itemprop="text">A: Yes — under DMCC, allowing or failing to regulate fake/misleading consumer reviews is likely a breach. Businesses must take reasonable steps to monitor, remove or correct misleading testimonials.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-3xl font-bold mt-12 mb-4 font-headline">Call to Action</h2>
+            <ul class="list-disc list-inside space-y-3">
+                <li><strong>For businesses & e-commerce operators:</strong> conduct a legal audit of your consumer-facing website—pricing, reviews, influencer content, terms & conditions.</li>
+                <li><strong>For legal teams & advisors:</strong> develop templates & training modules to help marketing / product teams recognize and comply with DMCC requirements.</li>
+                <li><strong>For publishers & digital marketers:</strong> generate content targeting the FAQ-style questions above to capture intent from businesses seeking to adapt.</li>
+            </ul>
+        `,
+        imageUrl: 'https://picsum.photos/seed/consumer-rights/800/600',
+        imageHint: 'consumer rights',
+        date: new Date().toISOString(),
+        authorId: 'author-3',
+        categoryId: 'cat-2',
+        tags: [
+            'DMCC Act', 'Digital consumer rights', 'Consumer protection online UK', 'Misleading reviews law UK', 'BNPL regulation UK', 
+            'Online price transparency legislation', 'Fake reviews enforcement', 'Digital marketplaces consumer law', 'Influencer marketing disclosure rules', 
+            'Global consumer law trends', 'consumer protection lawyer UK', 'digital law firm services', 'BNPL legal advice', 'ecommerce compliance services'
+        ],
+        isFeatured: true,
+        isPopular: true,
+    },
+    {
         id: 'article-11',
         slug: 'insurance-legal-trends-ai-cyber-parametric-class-action-2025',
         title: 'How AI, Cyber Risks & Class-Action Rules Are Reshaping Insurance & Legal (2025)',
@@ -107,7 +222,7 @@ let articles: Article[] = [
         `,
         imageUrl: 'https://picsum.photos/seed/legal-tech/800/600',
         imageHint: 'legal technology',
-        date: new Date().toISOString(),
+        date: subDays(new Date(), 1).toISOString(),
         authorId: 'author-3',
         categoryId: 'cat-2',
         tags: [
