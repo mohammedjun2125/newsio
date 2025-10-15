@@ -3,8 +3,22 @@ import { Card, CardContent } from '@/components/ui/card';
 
 export const metadata: Metadata = {
   title: 'Terms of Service - Newsio',
-  description: 'Review the Terms of Service for using the Newsio website. Understand your rights and responsibilities when accessing our content and services.',
+  description: 'Official Terms of Service for Newsio. Understand your rights and responsibilities when accessing our content, services, and website.',
   keywords: ['terms of service', 'user agreement', 'website terms', 'conditions of use'],
+  alternates: {
+    canonical: '/terms',
+  },
+  openGraph: {
+    title: 'Terms of Service - Newsio',
+    description: 'Official Terms of Service for Newsio. Understand your rights and responsibilities when accessing our content, services, and website.',
+    url: 'https://www.newsio.space/terms',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Terms of Service - Newsio',
+    description: 'Official Terms of Service for Newsio. Understand your rights and responsibilities when accessing our content, services, and website.',
+  },
 };
 
 export default function TermsOfServicePage() {

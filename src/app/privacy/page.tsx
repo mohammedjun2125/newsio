@@ -3,8 +3,22 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Newsio',
-  description: 'Read the official Privacy Policy for Newsio. Learn how we collect, use, and protect your personal data and your rights regarding your information.',
+  description: 'Read the official Privacy Policy for Newsio. Learn how we collect, use, and protect your personal data, and understand your rights regarding your information.',
   keywords: ['privacy policy', 'data protection', 'user data', 'information security', 'cookie policy'],
+  alternates: {
+    canonical: '/privacy',
+  },
+  openGraph: {
+    title: 'Privacy Policy - Newsio',
+    description: 'Read the official Privacy Policy for Newsio. Learn how we collect, use, and protect your personal data, and understand your rights regarding your information.',
+    url: 'https://www.newsio.space/privacy',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy - Newsio',
+    description: 'Read the official Privacy Policy for Newsio. Learn how we collect, use, and protect your personal data, and understand your rights regarding your information.',
+  },
 };
 
 export default function PrivacyPolicyPage() {

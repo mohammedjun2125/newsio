@@ -3,9 +3,23 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Newspaper, Target, Users } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Newsio | Your Premier Tech News Source',
-  description: 'Learn about Newsio, our mission, and the team dedicated to bringing you the latest in tech, AI, gadgets, and trending news with expert analysis and insights.',
+  title: 'About Newsio | Our Mission and Team',
+  description: 'Learn about Newsio, our mission to deliver clear and insightful tech news, and the team of experts dedicated to covering AI, gadgets, and more.',
   keywords: ['about us', 'tech news', 'technology journalism', 'expert analysis', 'AI news'],
+  alternates: {
+    canonical: '/about',
+  },
+  openGraph: {
+    title: 'About Newsio | Our Mission and Team',
+    description: 'Learn about Newsio, our mission to deliver clear and insightful tech news, and the team of experts dedicated to covering AI, gadgets, and more.',
+    url: 'https://www.newsio.space/about',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Newsio | Our Mission and Team',
+    description: 'Learn about Newsio, our mission to deliver clear and insightful tech news, and the team of experts dedicated to covering AI, gadgets, and more.',
+  },
 };
 
 export default function AboutPage() {

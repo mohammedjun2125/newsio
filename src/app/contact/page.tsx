@@ -7,9 +7,23 @@ import { Label } from '@/components/ui/label';
 import { Mail, MessageSquare, Send } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Newsio',
-  description: 'Get in touch with the Newsio team. Contact us for news tips, press inquiries, technical support, or general feedback about our tech news coverage.',
+  title: 'Contact Us - Newsio',
+  description: 'Get in touch with the Newsio team. We welcome news tips, press inquiries, feedback, and questions about our tech news coverage.',
   keywords: ['contact newsio', 'tech news contact', 'press inquiries', 'submit news tip', 'technology journalism contact'],
+  alternates: {
+    canonical: '/contact',
+  },
+  openGraph: {
+    title: 'Contact Us - Newsio',
+    description: 'Get in touch with the Newsio team. We welcome news tips, press inquiries, feedback, and questions about our tech news coverage.',
+    url: 'https://www.newsio.space/contact',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Us - Newsio',
+    description: 'Get in touch with the Newsio team. We welcome news tips, press inquiries, feedback, and questions about our tech news coverage.',
+  },
 };
 
 export default function ContactPage() {

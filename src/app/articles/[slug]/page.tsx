@@ -29,11 +29,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: article.title,
     description: article.description,
     alternates: {
-      canonical: `${URL}/articles/${article.slug}`,
+      canonical: `/articles/${article.slug}`,
     },
     openGraph: {
         title: article.title,
         description: article.description,
+        url: `/articles/${article.slug}`,
+        type: 'article',
+        publishedTime: article.date,
+        authors: article.authorId, // Consider fetching author name
         images: [
             {
                 url: article.imageUrl,
@@ -42,6 +46,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 alt: article.title,
             },
         ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: article.title,
+      description: article.description,
+      images: [article.imageUrl],
     },
   };
 }

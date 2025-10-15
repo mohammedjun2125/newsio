@@ -3,7 +3,21 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const metadata: Metadata = {
   title: 'Disclaimer - Newsio',
-  description: 'Read the disclaimer for Newsio. Understand the limitations of liability, content accuracy, and external links policy.',
+  description: 'Official disclaimer for Newsio. Understand the limitations of liability, accuracy of information, external links, and professional advice policy.',
+  alternates: {
+    canonical: '/disclaimer',
+  },
+  openGraph: {
+    title: 'Disclaimer - Newsio',
+    description: 'Official disclaimer for Newsio. Understand the limitations of liability, accuracy of information, external links, and professional advice policy.',
+    url: 'https://www.newsio.space/disclaimer',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Disclaimer - Newsio',
+    description: 'Official disclaimer for Newsio. Understand the limitations of liability, accuracy of information, external links, and professional advice policy.',
+  },
 };
 
 export default function DisclaimerPage() {

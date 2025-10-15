@@ -1,4 +1,3 @@
-
 import { MetadataRoute } from 'next';
 import { getArticles, getCategories } from '@/lib/data';
 
@@ -10,7 +9,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const articleUrls = articles.map(article => ({
     url: `${baseUrl}/articles/${article.slug}`,
     lastModified: new Date(article.date).toISOString(),
-    priority: 0.7,
+    priority: 0.8,
   }));
 
   // Get all categories
@@ -18,7 +17,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const categoryUrls = categories.map(category => ({
     url: `${baseUrl}/category/${category.slug}`,
     lastModified: new Date().toISOString(),
-    priority: 0.8,
+    priority: 0.7,
   }));
 
   // Define static pages
@@ -34,7 +33,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticUrls = staticRoutes.map(path => ({
       url: `${baseUrl}${path}`,
       lastModified: new Date().toISOString(),
-      priority: path === '' ? 1.0 : 0.8,
+      priority: path === '' ? 1.0 : 0.5,
   }));
 
   return [...staticUrls, ...categoryUrls, ...articleUrls];
