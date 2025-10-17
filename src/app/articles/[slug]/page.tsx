@@ -10,7 +10,7 @@ import Link from 'next/link';
 import { GoBackButton } from '@/components/go-back-button';
 import { JsonLd } from '@/components/seo/json-ld';
 
-const URL = 'https://newsio.com'; // Replace with your actual domain
+const URL = 'https://www.newsio.space';
 
 type Props = {
   params: { slug: string };
@@ -25,6 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  const author = await getAuthor(article.authorId);
+
   return {
     title: article.title,
     description: article.description,
@@ -37,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         url: `/articles/${article.slug}`,
         type: 'article',
         publishedTime: article.date,
-        authors: article.authorId, // Consider fetching author name
+        authors: author ? [author.name] : ['Newsio'],
         images: [
             {
                 url: article.imageUrl,
